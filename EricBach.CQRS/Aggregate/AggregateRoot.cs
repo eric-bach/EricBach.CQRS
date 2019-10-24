@@ -50,11 +50,16 @@ namespace EricBach.CQRS.Aggregate
         {
             dynamic d = this;
 
-            d.Handle(Utilities.ChangeTo(@event, @event.GetType()));
+            d.Handle(ChangeTo(@event, @event.GetType()));
             if (isNew)
             {
                 _changes.Add(@event);
             }
+        }
+
+        private static dynamic ChangeTo(dynamic source, Type dest)
+        {
+            return Convert.ChangeType(source, dest);
         }
     }
 }
