@@ -8,5 +8,6 @@ namespace EricBach.CQRS.Events
         int Version { get; set; }
         string  EventName { get; set; }
         int EventVersion { get; set; }
+        DateTime Timestamp { get; set; }
     }
 }

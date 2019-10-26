@@ -12,6 +12,7 @@ namespace EricBach.CQRS.Aggregate
         public Guid Id { get; protected set; }
         public int Version { get; protected set; }
         public int EventVersion { get; protected set; }
+        public DateTime Timestamp { get; set; }
 
         public IEnumerable<Event> GetUncommittedChanges()
         {
@@ -38,6 +39,7 @@ namespace EricBach.CQRS.Aggregate
             {
                 Version = history.Last().Version;
                 EventVersion = history.Last().EventVersion;
+                Timestamp = history.Last().Timestamp;
             }
         }
 
