@@ -6,5 +6,7 @@ namespace EricBach.CQRS.Events
     {
         Guid Id { get; }
         int Version { get; set; }
+        string  EventName { get; set; }
+        int EventVersion { get; set; }
     }
 }

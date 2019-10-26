@@ -37,8 +37,8 @@ namespace EricBach.CQRS.Aggregate
             if (history.Any())
             {
                 Version = history.Last().Version;
+                EventVersion = history.Last().EventVersion;
             }
-            EventVersion = Version;
         }
 
         protected void ApplyChange(Event @event)
