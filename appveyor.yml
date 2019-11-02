@@ -10,7 +10,8 @@ build_script:
 - ps: .\Build.ps1
 test: off
 artifacts:
-- path: .\artifacts\*.nupkg
+#- path: .\artifacts\**\*.nupkg
+- path: C:\projects\ericbach-cqrs\EricBach.CQRS\artifacts\*.nupkg
   name: NuGet
 deploy:
 - provider: NuGet
