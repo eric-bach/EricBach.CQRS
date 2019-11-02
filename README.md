@@ -1,4 +1,4 @@
-# Rn.Common
-[![Build status](https://ci.appveyor.com/api/projects/status/lbt761dbh7qc8ung/branch/master?svg=true)](https://ci.appveyor.com/project/rniemand/rn-common/branch/master)
+# EricBach.CQRS
+[![Build status](https://ci.appveyor.com/api/projects/status/1d0ch493olbfmkm2?svg=true)](https://ci.appveyor.com/project/eric-bach/ericbach-cqrs)
 
-Collection of common abstractions and implementations to use in your applications.
+EricBach.CQRS is a microservices CQRS framework
