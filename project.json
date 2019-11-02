@@ -1,0 +1,5 @@
+{
+    "version": "1.0.0-beta-*",
+    "packOptions": {
+      "projectUrl": "https://github.com/eric-bach/EricBach-CQRS/"
+    }
