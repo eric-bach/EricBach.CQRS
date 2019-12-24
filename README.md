@@ -5,7 +5,7 @@
 ![Nuget](https://img.shields.io/nuget/v/EricBach.CQRS)
 ![Nuget](https://img.shields.io/nuget/dt/EricBach.CQRS)
 
-`EricBach.CQRS` is a microservices CQRS framework!
+`EricBach.CQRS` is a microservices CQRS framework
 
 ## License
 
